@@ -1,3 +1,4 @@
+.gitignore
 yt-download.ps1
 .venv/
 Downloads/
