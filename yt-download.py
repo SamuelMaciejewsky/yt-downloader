@@ -57,9 +57,12 @@ def main():
 
     try:
         yt = YouTube(video_url)
+
     except Exception as e:
+
         print("Invalid URL")
         print("If the url is correct, press 'y' to print the error log")
+
         if input().lower() == "y":
             print(e)
         else:
